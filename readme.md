@@ -20,7 +20,7 @@ To encode a message into an image, use the following command:
 ```shell
 shadowcrypt -encode -i input_image.png -o output_image.png -m "Your secret message"
 shadowcrypt -decode -i encoded_image.png
-
+```
 
 ## Installation
 Clone this repository to your local machine.
