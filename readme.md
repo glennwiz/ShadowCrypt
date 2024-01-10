@@ -19,3 +19,18 @@ To encode a message into an image, use the following command:
 
 ```shell
 shadowcrypt -encode -i input_image.png -o output_image.png -m "Your secret message"
+shadowcrypt -decode -i encoded_image.png
+
+
+## Installation
+Clone this repository to your local machine.
+
+Build the project using Visual Studio or the .NET CLI.
+
+Run the ShadowCrypt tool from the command line as described in the "Usage" section.
+
+License
+This project is licensed under the MIT License.
+
+Acknowledgments
+ShadowCrypt was created by Glennwiz as a fun project to explore steganography techniques. Feel free to contribute, report issues, or provide feedback to make it even better!
